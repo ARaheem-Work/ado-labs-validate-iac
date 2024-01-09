@@ -3,9 +3,9 @@
 #############################################################################
 
 variable "location" {
-  description = "(Optional) Region where the Azure resources will be created. Defaults to East US."
+  description = "(Optional) Region where the Azure resources will be created. Defaults to West US3."
   type        = string
-  default     = "eastus"
+  default     = "westus3"
 }
 
 variable "naming_prefix" {
